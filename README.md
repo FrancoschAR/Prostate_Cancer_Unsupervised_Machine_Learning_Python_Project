@@ -19,10 +19,6 @@ Features: Normalized expression levels of selected miRNAs
 📥 1. Data Collection & Wrangling
 Loaded miRNA expression and clinical metadata using Pandas and NumPy
 
-Filtered and aligned datasets to ensure sample matching
-
-Preprocessed expression matrix (scaling, normalization)
-
 📊 2. Exploratory Data Analysis (EDA)
 Visualized expression distributions and outliers
 
@@ -46,8 +42,6 @@ Pandas, NumPy – Data handling
 Matplotlib, Seaborn – Visualization
 
 Scikit-learn – PCA, clustering (k-means, DBSCAN)
-
-UMAP-learn – Optional nonlinear dimension reduction (if applied)
 
 📌 Key Results
 Clustering revealed distinguishable subgroups in the patient cohort
